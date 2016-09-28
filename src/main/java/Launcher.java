@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Launcher {
     private static final int PORT = 9002;
-    private static final String IP = "127.0.0.1";
+    private static final String IP = "10.30.0.166";
     private static Socket socket;
 
     public static void main(String[] args) throws IOException {
