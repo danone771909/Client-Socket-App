@@ -9,7 +9,7 @@ public class Launcher {
 
     public static void main(String[] args) throws IOException {
         Random random = new Random();
-        for(int i=0; i<100; i++) {
+        for(int i=0; i<20000; i++) {
             Runnable r = new Client(i);
 
             try {

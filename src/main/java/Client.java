@@ -86,6 +86,9 @@ public class Client implements Runnable {
             case "WAIT_FOR_OPPONENT":
                 out.println("wait");
                 break;
+            case "START":
+                out.println("start");
+                break;
             case "CHECKPOINT":
                 out.println(new Random().nextInt(20));
                 break;
