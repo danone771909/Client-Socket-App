@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Client implements Runnable {
     private final int PORT = 9002;
-    private final String IP = "127.0.0.1";
+    private final String IP = "10.30.0.166";
     private Socket socket;
     private int id;
     private PrintWriter out;
